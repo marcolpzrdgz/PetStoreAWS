@@ -24,7 +24,7 @@ mysql -h ${line2} -P 3306 -u dbuser -ppet123456! petDb < ${DIR}/petstore.sql
 
 
 sudo chmod -R 777 /home/ec2-user/nodejs-express
-#navifate into our worling directory where we have all our github files
+#navigate into our working directory of the github files
 cd /home/ec2-user/nodejs-express
 
 #add npm and node to path
