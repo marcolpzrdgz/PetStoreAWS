@@ -1,0 +1,24 @@
+{
+  "name": "test_nodejs_application",
+  "version": "1.0.0",
+  "description": "sample nodejs application",
+  "main": "index.js",
+  "scripts": {
+    "start":"node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dineshindn/test_nodejs_application.git"
+  },
+  "author": "dinesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dineshindn/test_nodejs_application/issues"
+  },
+  "homepage": "https://github.com/dineshindn/test_nodejs_application#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0"
+  }
+}
