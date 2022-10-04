@@ -18,7 +18,6 @@ fi
 
 DIR2="/home/ec2-user/"
 line2=$(grep -o '[^ ]*masterdb[^ ]*' /home/ec2-user/nodejs-express/db.config.js | awk '{print substr($0, 2, length($0) - 3)}')
-echo "$line2"
 
 mysql -h ${line2} -P 3306 -u dbuser -ppet123456! petDb < ${DIR}/petstore.sql
 
